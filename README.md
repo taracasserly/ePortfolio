@@ -1,1 +1,1 @@
-# my ePortfolio while studying the MSc in Computer Science with University of Essex 
+# My ePortfolio while studying the MSc in Computer Science with University of Essex 
