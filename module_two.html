@@ -80,15 +80,176 @@
 						
 						
 </p>
+		<h2> 
+											System Implementation
+									</h2>
+		
+
+
 									
-									<p>In this module, students will contextualise and
-develop information systems using object-oriented
-approaches with various programming languages,
-such as Python and SQL. This involves equipping
-students with the practical skills required to be able
-to analyse an information system problem, design
-and implement a solution using various industry
-standard tools and techniques. </p>
+									<p>
+### This is a development exercise where you are required to implement an object-oriented system. You are acting as a consultant software developer for a local doctors’ surgery, who have had a system design created by a software architect. It is your job to implement their design using an object-oriented approach, using Python. ###
+
+#functions: Add patient; Add appointment; Issue prescription;# 
+
+
+list of classes; 
+
+
+class Appointment:
+    def __init__(self, staff, patient):
+        self.add = "add_appointment"
+        self.cancel = "cancel_appointment"
+        self.find = "find_next_appointment"
+        
+            def add_appointment(self, appointment):
+    def cancel_appointment(self, appointment):
+            def find_next_appointment(self, appointment):
+                
+                    def appointment(self):
+
+        
+        class AppointmentSchedule:
+    def __init__(self):
+        self.appointments = []
+        
+        class HealthcareProfessional:
+    def __init__(self, name, employee_num):
+        self.name = name
+        self.employee_num = employee_num
+
+    class Nurse(HealthcareProfessional):
+    def __init__(self, name, employee_num):
+        
+        
+  class Doctor(HealthcareProfessional):
+    def __init__(self, name, employee_num):
+       
+
+class Patient:
+    def __init__(self, name, address, phone):
+        self.name (string)
+        self.address (string)
+        self.phone (string)
+
+    
+        class Prescription:
+    def __init__(self, type, doctor, quantity, dosage):
+        self.type = type
+        self.doctor = doctor
+        self.quantity = quantity
+        self.dosage = dosage
+        
+        
+        class Receptionist 
+            def __init__(self):
+ 
+
+# Welcome Menu for the doctor surgery # 
+
+def main():
+
+    print("-Welcome to the surgery-")
+    print("1: Add appointment")
+    print("2: Add patient")
+    print("3: Issue prescription")
+    
+
+
+    choice = input("Enter Selection: ")
+    if choice == '1':
+        A = Appointment()
+    elif choice == '2':
+        P = Patient()
+    if choice == '3':
+        P = Prescription()
+    elif choice == '0' or choice == 'NULL':
+        exit()
+    else:
+        print("Invalid Choice")
+
+
+
+// add patient 
+
+            # This function will add the patient to the appointment list # 
+
+
+def add_patient(name, address, phone =''):
+    '''Add patient to the appointment_list.\n
+    
+    '''
+    return patient_info
+
+
+def add_patient_interface():
+    '''add patient to the appointment_list.'''
+
+ 
+
+  // Add appointment 
+            
+            # This function will add an appointment for the patient # 
+            
+    def add_appointment(self, patient_id):
+        c.execute("""
+            SELECT * from healthcare_professional
+            where role='doctor'
+        """)
+
+            try:
+                c.execute(f"""
+                INSERT INTO appointment VALUES(
+                    "appointment",
+                    {Doctor},
+                    {patient_id})
+                """)
+                
+                print("--------------------------------------------------------------")
+                print("Appointment successfully requested")
+
+
+// Issue prescription 
+
+        # This function allows the doctor to issue the prescription to the patient 
+        
+    
+    def request_prescription (self, patient_id):
+        if (self.get_doctors()) <= 0:
+            self.menu(patient_id)
+        else:
+            type = input("Enter prescription type: ")
+            doctor = int(input("Enter employee num: "))
+            try:
+                c.execute(f"""
+                INSERT INTO prescription VALUES(
+                    "{type}",
+                    {patient_id},
+                    {doctor},
+                    {quantity}
+                    {dosage}  
+                )
+                """)
+
+                print("--------------------------------------------------------------")
+                print("Prescription successfully requested")
+            
+    
+    
+    ## The end ## 
+    
+  
+
+                
+                
+    
+
+    
+
+           
+         
+                
+                 </p>
 									
 								</div>
 							</section>
